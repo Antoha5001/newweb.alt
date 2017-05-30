@@ -1,0 +1,38 @@
+@import "_library";
+@import "_reset";
+@import "_setka";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=cyrillic);
+@font-face {
+	font-family: nautilys;
+	src: url("../fonts/nautiluspompilius.ttf");
+	font-weight: 400;
+	font-style: normal;
+}
+p{
+	//color: red;
+}
+body{
+	background: pink;
+}
+
+.header{
+	background: #fff;
+	padding-bottom: 16px;
+}
+
+.header__logo {
+	display: block;
+margin-top: 65px;
+	img{
+		width: 287px;
+	}
+}
+.hr__top{
+	height: 12px;
+	background-color: none;
+	background-image: url("../images/hr_top.png");
+	background-repeat: repeat-x;
+	//background-size: contain;
+	//background-position: 0 0;
+	
+}
