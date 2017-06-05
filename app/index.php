@@ -16,6 +16,8 @@
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" type="text/css" href="css/mystyle.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
 	<title>Главная</title>
 
 	<!-- Chrome, Firefox OS and Opera -->
@@ -31,28 +33,52 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-	<style>
-		body {}
 
-		html {}
-	</style>
 </head>
 
 <body>
-	<section class="header">
+	<header class="header">
 		<div class="wrapper">
 			<div class="row">
-				<div class="col col-lg-4">
+				<div class="col col-lg-4 col-md-12">
 					<a href="#" class="header__logo">
 						<img src="images/logo.svg" alt="">
 					</a>
 				</div>
-				<div class="col col-lg-8">
-
+				<div class="col col-lg-8 col-md-12">
+					<nav class="menu">
+						<input type="checkbox" name="toggle" id="menu" class="menu__toggle" />
+						<label for="menu" class="menu__toggle"><i class="fa fa-bars"></i>Меню</label>
+						<ul>
+							<!-- <li><a href="#"><i class="fa fa-home"></i>Главная</a></li> -->
+							<li>
+								<input type="checkbox" name="toggle" class="submenu__toggle" id="sub_m1" />
+								<a href="#"><i class="fa fa-shopping-basket"></i>Услуги</a>
+								<label for="sub_m1" class="submenu__toggle"><i class="fa"></i></label>
+								<ul>
+									<li><a href="#">Верстка html шаблона из psd</a></li>
+									<li><a href="#">Верстка e-mail писем</a></li>
+								</ul>
+							</li>
+							<li>
+								<input type="checkbox" name="toggle" class="submenu__toggle" id="sub_m2" />
+								<a href="#"><i class="fa fa-cogs"></i>Портфолио</a>
+								<label for="sub_m2" class="submenu__toggle"><i class="fa"></i></label>
+								<ul>
+									<li><a href="#">Портфолио 1</a></li>
+									<li><a href="#">Портфолио 2</a></li>
+									<li><a href="#">Портфолио 3</a></li>
+								</ul>
+							</li>
+							<li><a href="#"><i class="fa fa-newspaper-o"></i>Статьи</a></li>
+							<li><a href="#"><i class="fa fa-newspaper-o"></i>Цены</a></li>
+							<li><a href="#"><i class="fa fa-address-book-o"></i>Контакты</a></li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 		</div>
-	</section>
+	</header>
 
 	<div class="hr__top"></div>
 	<script type="text/javascript" src="script/scripts.min.js"></script>

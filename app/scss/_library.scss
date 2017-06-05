@@ -1,37 +1,17 @@
-$green:#60c48f;
-$dark-green:#397556;
-$lite-green: #e8fff3;
-/*#e8fff3 #ecf8f2*/
 
-$nice-green: #ccffe4;
-/*#e8fff3 #ecf8f2*/
-
-$lite-blue: #2bd9f5;
-/*#e8fff3 #ecf8f2*/
-
-$blue: #38baf2;
-$blue_logo: #00bbff;
-/*#e8fff3 #ecf8f2*/
+/*
+/ COLOR
+*/
+$dark-blue:#062436;
+$blue:#23a4de;
+/**/
 
 $image_dir:'../images/';
-$planshet: 910px;
-/**/
+$planshet: 960px;
+$phone: 640px;
 
-$phone: 600px;
-$blue2: #00478a;
-$bluet: rgba(37, 35, 72, 0.65);
-$lite-blue2: #0080ff;
-$nice-blue2: #b0d9ff;
-$lite-bluet: rgba(83, 77, 177, 0.85);
-$orange: #FFD608;
-$dorange111: orange - #111;
-$dorange333: orange - #333;
-$green2: #00ba78;
-$dark-green2: #005c3a;
-$lite-green2: #00cc84;
-$W250: 250px;
 /**/
-
+/*
 @mixin border-radius($px) {
   -webkit-border-radius: $px;
   -moz-border-radius: $px;
@@ -82,3 +62,4 @@ $W250: 250px;
   -webkit-border-radius: $atr1;
   -moz-border-radius: $atr1;
 }
+*/
