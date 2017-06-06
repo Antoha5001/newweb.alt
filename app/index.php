@@ -45,7 +45,7 @@
 						<img src="images/logo.svg" alt="">
 					</a>
 				</div>
-				<div class="col col-lg-8 col-md-12">
+				<div class="col col-lg-8 col-md-12 menu__box">
 					<nav class="menu">
 						<input type="checkbox" name="toggle" id="menu" class="menu__toggle" />
 						<label for="menu" class="menu__toggle"><i class="fa fa-bars"></i>Меню</label>
@@ -79,8 +79,16 @@
 			</div>
 		</div>
 	</header>
-
 	<div class="hr__top"></div>
+	<section class="banner__box">
+		<div class="wrapper banner">
+			<div class="row">
+				<div class="col col-lg-12"><h1><span>сайт-портфолио</span><br>веб-дизайнера</h1></div>
+			</div>
+		</div>
+	</section>
+	<div class="hr__bottom"></div>
+	<section class="about__box"></section>
 	<script type="text/javascript" src="script/scripts.min.js"></script>
 	<!-- <script>window.jQuery || document.write('<script src="script/jquery.js"><\/script>')</script> -->
 </body>

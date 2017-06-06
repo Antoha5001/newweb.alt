@@ -1,12 +1,4 @@
-@font-face {
-    font-family: "fira";
-    src: url('../fonts/') format('embedded-opentype'),
-    url('../fonts/') format('woff2'),
-    url('../fonts/') format('woff'),
-    url('../fonts/FiraSans-Regular.ttf') format('truetype'),
-    url('../fonts/') format('svg');
 
-}
 
 /*
 *Menu*
@@ -15,13 +7,7 @@
     padding: 0;
     margin: 0;
 }
-
-body {
-    padding: 0;
-    margin: 0;
-    font-family: "fira";
-    box-sizing: border-box;
-    border-collapse: collapse;
+.menu__box{
 }
 
 header {
@@ -30,6 +16,8 @@ header {
 .menu{
 margin-top: 65px;
 font-size: 0.75em;
+display: flex;
+  justify-content: flex-end;
 }
 .menu ul, .menu li {
     list-style: none;
