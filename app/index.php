@@ -83,7 +83,11 @@
 	<section class="banner__box">
 		<div class="wrapper banner">
 			<div class="row">
-				<div class="col col-lg-12"><h1><span>сайт-портфолио</span><br>веб-дизайнера</h1></div>
+				<div class="col col-lg-12">
+                    <h1>
+                        <span class ="banner__podzagolovok">сайт-портфолио</span>
+                        <span class ="banner__zagolovok">веб-дизайнера</span>
+                    </h1></div>
 			</div>
 		</div>
 	</section>
