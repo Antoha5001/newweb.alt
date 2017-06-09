@@ -8,7 +8,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "fira";
+    font-family: "PT Sans";
     box-sizing: border-box;
     border-collapse: collapse;
 			background: $dark-blue;
@@ -43,7 +43,50 @@ body {
 	background-image: url("../images/hr_bottom.png");
 }
 
-.about__box{
-	height: 258px;
+.base__box{
 	background: #fff;
+	padding: 30px 0;
+}
+.button{
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: $green;
+	padding: 20px 50px;
+	margin: auto;
+	text-align: center;
+	border-radius: 27px;
+	font-size: 20px;
+	font-family: "PT sans bold";
+	margin-top: 50px;
+}
+.button_blue{
+	background: $blue;
+}
+.button__scroll{
+	display: block;
+	width: 70px;
+	height: 70px;
+	background: url("../images/button_scroll.svg");
+	margin:auto;
+	margin-top: 35px;
+}
+.button__more{
+	background: $blue;
+	margin-top: 50px;
+}
+.portfolio__box{
+	background: $dark-blue;
+	padding: 30px 0;
+	h2{
+		color:#fff;
+		margin-bottom: 50px;
+	}
+}
+.portfolio__item{
+height: 360px;
+	background: #fff;
+}
+.portfolio__button-box{
 }
