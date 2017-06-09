@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Orpheus';
+  src: url('Orpheus.eot');
+  src: url('Orpheus.woff2') format('woff2'),
+       url('Orpheus.woff') format('woff'),
+       url('Orpheus.ttf') format('truetype'),
+       url('Orpheus.svg#Orpheus') format('svg'),
+       url('Orpheus.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

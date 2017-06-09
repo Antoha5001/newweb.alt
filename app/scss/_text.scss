@@ -19,10 +19,10 @@
 @font-face {
     font-family: "orpheus";
     src: url('../fonts/Orpheus.otf') format('embedded-opentype'),
-    url('../fonts/') format('woff2'),
-    url('../fonts/') format('woff'),
-    url('../fonts/') format('truetype'),
-    url('../fonts/') format('svg');
+    url('../fonts/Orpheus.woff2') format('woff2'),
+    url('../fonts/Orpheus.woff') format('woff'),
+    url('../fonts/Orpheus.ttf') format('truetype'),
+    url('../fonts/Orpheus.svg') format('svg');
 
 }
 p{
